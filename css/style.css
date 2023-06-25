@@ -1,0 +1,131 @@
+.first-Section {
+  height: 700px;
+  /*CHANGE IF BG CHANGES*/
+  background-color: #39a4f1;
+  background-image: url("../img/firstBG-100ypx.png");
+  /* background-size: cover; */
+  background-size: 100% 100%;
+}
+
+.second-section {
+  height: 800px;
+  background-color: white;
+  background-image: url("../img/secondBG.png");
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.intro-div {
+  background-color: #39a4f1;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: auto;
+  width: 50%;
+  margin-top: 15%;
+  border-radius: 38px;
+  box-shadow: 20px 20px 0px 1px rgb(32, 108, 207, 0.4);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+.my-img {
+  border-radius: 30px;
+
+}
+
+.my-name {
+  font-size: 2rem;
+  font-family: "Sacramento", cursive;
+}
+
+.my-summary-p {
+  margin-top: 3.2rem;
+}
+
+.fa-brands {
+  /*fa icons*/
+  margin: 15px 10px;
+}
+.skill-icon-div{
+  display: flex;
+}
+
+@media (max-width: 1400px) {
+  .second-section-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .first-Section,
+  .second-section {
+    background-size: auto 100%;
+  }
+
+  .intro-div {
+    width: 60%;
+  }
+
+  .second-section-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .first-Section,
+  .second-section {
+    background-size: auto 100%;
+  }
+
+  .intro-div {
+    width: 65%;
+  }
+
+  .my-summary-p {
+    margin-top: 0.5rem;
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+  .first-Section,
+  .second-section {
+    background-size: auto 100%;
+  }
+
+  .intro-div {
+    width: 70%;
+  }
+
+  .image-center-div {
+    justify-content: center;
+    display: flex;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .first-Section,
+  .second-section {
+    background-size: auto 100%;
+  }
+
+  .intro-div {
+    width: 80%;
+  }
+}
+
+@media (max-width:390px) {
+  .skill-icon-div {
+    /*fa icons*/
+    display: none;
+  }
+}
